@@ -2,7 +2,6 @@ import { CardContent, Typography, Card, Grid, TextField, Button, Stack } from "@
 
 const Form = () => {
     return (
-        <>
             <div className="content">
                 <Card >
                     <CardContent>
@@ -47,7 +46,7 @@ const Form = () => {
                     </CardContent>
                 </Card>
             </div>
-        </>
+       
     )
 }
 export default Form;
