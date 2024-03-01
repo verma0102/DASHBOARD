@@ -5,8 +5,8 @@ import FolderOutlinedIcon from '@mui/icons-material/FolderOutlined';
 
 const Nav = [
     {
-        name: 'DashBoard',
-        to: '/dashboard',
+        name: 'Home',
+        to: '/Home',
         icon: <InboxIcon />,
         subList: null
     },
@@ -24,23 +24,21 @@ const Nav = [
     },
    
     {
-        name: 'DropDown',
+        name: 'subItem',
         to: null,
         icon: <FolderOutlinedIcon />,
         subList: [
             {
-                name: 'About',
-                to: '/About',
+                name: 'Java',
+                to: '/Java',
                 icon: <MailIcon />
             },
             {
-                name: 'Contact',
-                to: '/Contact',
+                name: 'Python',
+                to: '/Python',
                 icon: <InboxIcon />
             },
            
-          
-
         ]
     }
 

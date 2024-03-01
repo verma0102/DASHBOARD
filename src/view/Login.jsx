@@ -1,3 +1,4 @@
+import { Padding } from "@mui/icons-material";
 import {
   Button,
   Card,
@@ -60,12 +61,7 @@ const Login = () => {
               </Grid>
 
               <Grid xs={12} item>
-                <Button
-                  type="submit"
-                  onClick={login}
-                  variant="contained"
-                  size="small"
-                >
+                <Button type="submit" onClick={login} variant="contained">
                   {" "}
                   Login
                 </Button>

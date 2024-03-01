@@ -28,19 +28,23 @@ body::-webkit-scrollbar-track {
   align-items: center;
   height: 100vh;
   background-color: skyblue;
+
 }
-.content .card {
+ .card {
   max-width: 450px;
+  border-radius: 50px;
+  line-height: 40px;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root{
+  border-radius: 10px !important;
 }
 .text {
+  margin-bottom: 20px !important;
   text-align: center;
   font-size: 100px;
-  background-color: darkblue;
-  border-radius: 50px;
-  color: red;
+  background-color: rgb(119, 193, 15);
+  border-radius: 40px;
+  color: white;
+  padding: 10px 0;
 }
-/* dashboard css*/
-.content content-2 {
-  margin: 0;
-  padding: 0;
-}
+
