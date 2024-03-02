@@ -4,8 +4,8 @@ import { ProtectedRoute } from './protectRoute/ProtectRoute';
 import Home from "../view/Home";
 import About from "../view/About";
 import Contact from "../view/Contact";
-import Java from '../view/subItem/Java';
-import Python from '../view/subItem/Python';
+import Demo from '../view/subItem/Demo';
+import Visitor from '../view/subItem/Visitor';
 
 const Routing=()=>{
     return(
@@ -14,8 +14,8 @@ const Routing=()=>{
           <Route path="/Home" element={<Home/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Contact" element={<Contact/>}/>
-          <Route path="/Java" element={<Java/>}/>
-          <Route path="/Python" element={<Python/>}/>
+          <Route path="/Demo" element={<Demo/>}/>
+          <Route path="/Visitor" element={<Visitor/>}/>
         </Routes>
         </>
     )

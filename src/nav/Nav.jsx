@@ -29,13 +29,13 @@ const Nav = [
         icon: <FolderOutlinedIcon />,
         subList: [
             {
-                name: 'Java',
-                to: '/Java',
+                name: 'Demo',
+                to: '/Demo',
                 icon: <MailIcon />
             },
             {
-                name: 'Python',
-                to: '/Python',
+                name: 'Visitor',
+                to: '/Visitor',
                 icon: <InboxIcon />
             },
            

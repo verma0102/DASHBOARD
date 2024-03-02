@@ -22,8 +22,7 @@ const About = () => {
   const no = 100;
   return (
     <>
-      <h1>UseReducer use Counter</h1>
-      <h2>Count:{state.count}</h2>
+      <h2>UseReducer use Counter:{state.count}</h2>
       <Stack direction="row" gap={1}>
         <Button
           variant="contained"
@@ -44,14 +43,14 @@ const About = () => {
           size="small"
           onClick={() => dispatch({ type: "incByVal", payload: no })}
         >
-          {"IncressBy" + no}{" "}
+          {"increase" + no}{" "}
         </Button>
         <Button
           variant="contained"
           size="small"
           onClick={() => dispatch({ type: "DecByVal", payload: 50 })}
         >
-          {"DecreseBy" + 50}{" "}
+          {"increaseBy" + 50}{" "}
         </Button>
       </Stack>
     </>

@@ -1,4 +1,3 @@
-import { Padding } from "@mui/icons-material";
 import {
   Button,
   Card,
@@ -17,7 +16,7 @@ const Login = () => {
 
   const login = () => {
     localStorage.setItem("token", "pappu-kushwaha");
-    navigate("/dashboard");
+    navigate("/Home");
   };
 
   return (
@@ -61,7 +60,7 @@ const Login = () => {
               </Grid>
 
               <Grid xs={12} item>
-                <Button type="submit" onClick={login} variant="contained">
+              <Button type="submit" onClick={login} variant="contained">
                   {" "}
                   Login
                 </Button>
